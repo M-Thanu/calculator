@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CalculatorSuite">
+
+    <!--<test name="BasicOperationsTest">
+        <groups>
+            <run>
+                <include name="BasicOperations"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.example"/>
+        </packages>
+        <classes>
+            <class name="com.example.CalculatorTest"/>
+        </classes>
+    </test>
+
+    <test name="AdvancedOperationsTest">
+        <groups>
+            <run>
+                <include name="AdvancedOperations"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.example"/>
+        </packages>
+        <classes>
+            <class name="com.example.CalculatorTest"/>
+        </classes>
+    </test>-->
+    <test name="CalculatorTests">
+        <packages>
+            <package name="com.example"/>
+        </packages>
+        <classes>
+            <class name="com.example.CalculatorTest"/>
+        </classes>
+    </test>
+
+</suite>
